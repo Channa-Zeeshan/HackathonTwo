@@ -10,7 +10,7 @@ import Image from 'next/image';
 import linkedIn from '../../../public/Logo--linkedin.png'
 const Footer = () => {
   return (
-    <div className='font-thin'>
+    <div className='font-thin max-w-[1440px] m-auto'>
         <div className='w-full h-[668px] md:h-[400px] bg-[#2A254B] text-white flex flex-col justify-evenly p-8 md:flex-row'>
             <div className='flex flex-row justify-between gap-16'>
                  <div className=' md:flex md:flex-col gap-6 '> 

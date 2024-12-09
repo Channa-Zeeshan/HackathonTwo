@@ -6,7 +6,7 @@ const ProductCard = () => {
   return (
     <div>
 
-        <div className='  w-[390px] h-[628px] flex flex-col   m-auto justify-evenly items-center  mt-12 sm:flex-row sm:w-full'>
+        <div className='  max-w-[1440px] h-[628px] flex flex-col   m-auto justify-evenly items-center  mt-12 sm:flex-row '>
             <div className='w-[342px] lg:w-[634px] h-[281px] lg:h-[478px] bg-[#2A254B] text-white p-8 flex flex-col justify-between'>
                 <div className='flex flex-col w-[278]  lg:w-[495px] h-[103] lg:h-[100px] justify-between'>
             <h1 className='font-normal text-[20px] lg:text-3xl leading-4 pt-3'  > It started with a small idea</h1>

@@ -9,7 +9,7 @@ import background from '../../../public/heropic.jpg'
 
 const HeroSection = () => {
     return (
-        <div className=' w-full m-auto '>
+        <div className=' max-w-[1440px] m-auto '>
             <div className='sm:relative sm:w-full w-[300px] h-[640px] sm:h-[704px] sm:flex-row  justify-center items-center m-auto'>
                 <div className=' flex w-full justify-around sm:h-full items-center '>
                     <div> </div>
@@ -29,7 +29,7 @@ const HeroSection = () => {
                 </div>
                 <div className=' sm:absolute w-full overflow-hidden sm:max-w-full   sm:h-[704px]  sm:top-0 sm:left-0 sm:-z-10 m-auto  ' >
                     
-                <Image src={background} alt='background' className=' sm:h-[704px]   w-full overflow-hidden'></Image>
+                <Image src={background} alt='background' className=' sm:h-[704px] object-cover  w-full overflow-hidden'></Image>
 
                 </div>
             </div>
