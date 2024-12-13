@@ -23,7 +23,7 @@ export default function Home() {
 <ListingCard />
 <ProductCard/>
 <Email/>
-<Footer/>
+<Footer />
  
  
   

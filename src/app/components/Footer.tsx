@@ -14,7 +14,7 @@ const Footer = () => {
         <div className='w-full h-[668px] md:h-[400px] bg-[#2A254B] text-white flex flex-col justify-evenly p-8 md:flex-row'>
             <div className='flex flex-row justify-between gap-16'>
                  <div className=' md:flex md:flex-col gap-6 '> 
-                <ul className='list-none flex-col text-xl' >Categories</ul>
+                <ul className='list-none flex-col text-xl font-normal' >Categories</ul>
                 <li className='list-none text-lg'>Crockery</li>
                 <li className='list-none text-lg'> Furniture</li>
                 <li className='list-none text-lg'>Homeware</li>
@@ -23,7 +23,7 @@ const Footer = () => {
                 <li className='list-none text-lg'> Crockery</li>
             </div> 
             <div className=' md:flex md:flex-col gap-6 '> 
-                <ul className='list-none flex-col text-xl '>
+                <ul className='list-none flex-col text-xl font-normal '>
                     Menu
                 </ul>
                 <li className='list-none text-lg'>New arrivals</li>
@@ -35,7 +35,7 @@ const Footer = () => {
             
             </div>
             <div className=' md:flex md:flex-col gap-6 '> 
-                <ul className='list-none flex-col text-xl'>
+                <ul className='list-none flex-col font-normal text-xl'>
                    Our Company
                 </ul>
                 <li className='list-none text-lg'>About us</li>
@@ -59,7 +59,7 @@ const Footer = () => {
             </div>
             <hr className='sm:w-11/12'></hr>
             <div className='flex justify-center text-center sm:w-full md:p-5 bg-[#2A254B] text-white sm:justify-between m-auto  '> <h1>Copyright 2022 Avion LTD </h1>
-             <div className='flex text-3xl invisible md:visible gap-8 '>
+             <div className='md:flex text-2xl hidden md:visible gap-8 '>
              <FaLinkedin />
              <FaFacebookSquare />
              <FaInstagramSquare />
