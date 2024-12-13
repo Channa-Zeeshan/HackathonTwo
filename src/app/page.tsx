@@ -8,15 +8,19 @@ import Listings from "./components/Listings";
 import ProductCard from "./components/ProductCard";
 import Email from "./components/Email";
 import Footer from "./components/Footer";
+import HomeCard from "./components/HomeCard";
+import FeatureCard from "./FeatureCard";
+import ListingCard from "./ListingCard";
 
 
 export default function Home() {
   return (
     <div>
+    
    <Navbar/>
 <HeroSection />
-<Features/>
-<Listings/>
+<FeatureCard />
+<ListingCard />
 <ProductCard/>
 <Email/>
 <Footer/>
