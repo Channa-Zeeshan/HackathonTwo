@@ -26,7 +26,7 @@ const Email = () => {
               <input type='text' placeholder='your@email.com'  className='h-12 w-[224px] md:w-[445px]' />  <button className='bg-[#2A254B] text-white h-12 w-20'>Sign up</button>
             </div>
 
-        </div>
+        </div >
        
              
           </div>
