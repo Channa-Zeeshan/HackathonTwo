@@ -1,5 +1,6 @@
 import React from 'react'
-import { Search } from 'lucide-react';
+import Link from 'next/link';
+import {  Search } from 'lucide-react';
 import { ShoppingCart } from 'lucide-react';
 import { CircleUserRound } from 'lucide-react';
 import { Menu } from 'lucide-react';
@@ -29,13 +30,13 @@ export const Navbar = () => {
 
         <div className='flex justify-center py-5'>
           <ul className='flex justify-between w-[675px]  h-[22px]'>
-            <li>Plant pots</li>
-            <li>Ceramics</li>
-            <li>Tables</li>
-            <li>Chairs</li>
-            <li>Crockery</li>
-            <li>Tableware</li>
-            <li>Cutlery</li>
+            <li> <Link href='/home' > Home</Link> </li>
+            <li><Link href='/allproducts' > All Products</Link></li>
+            <li><Link href='/listingproduct' > Product Listing</Link></li>
+            <li><Link href='/shopingcart' > Shopping Cart</Link></li>
+            <li><Link href='/about' > About Us</Link></li>
+            <li><Link href='/#' > Contact Us</Link></li>
+            
           </ul>
         </div>
 

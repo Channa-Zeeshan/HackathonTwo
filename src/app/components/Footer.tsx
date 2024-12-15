@@ -5,6 +5,7 @@ import { FaInstagramSquare } from "react-icons/fa";
 import { FaSkype } from "react-icons/fa6";
 import { FaTwitter } from "react-icons/fa";
 import { FaPinterest } from "react-icons/fa";
+import Link from 'next/link';
 
 import Image from 'next/image';
 import linkedIn from '../../../public/Logo--linkedin.png'
@@ -36,13 +37,13 @@ const Footer = () => {
             </div>
             <div className=' md:flex md:flex-col gap-6 '> 
                 <ul className='list-none flex-col font-normal text-xl'>
-                   Our Company
+                   WebPage Sections
                 </ul>
-                <li className='list-none text-lg'>About us</li>
-                <li className='list-none text-lg'>Vacancies</li>
-                <li className='list-none text-lg'>Contact us</li>
-                <li className='list-none text-lg'>Privacy</li>
-                <li className='list-none text-lg'> Resume Policy</li>
+                <li className='list-none text-lg'><Link href='/home' > Home</Link> </li>
+                <li className='list-none text-lg'><Link href='/allproducts' > All Products</Link></li>
+                <li className='list-none text-lg'><Link href='/listingproduct' > Product Listing</Link></li>
+                <li className='list-none text-lg'><Link href='/shopingcart' > Shopping Cart</Link></li>
+                <li className='list-none text-lg'><Link href='/about' > About Us</Link></li>
             </div>
             <div className='flex  flex-col justify-center' >
                 <h1> Join our mailing list</h1>
